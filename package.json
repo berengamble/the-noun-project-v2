@@ -1,6 +1,6 @@
 {
   "name": "the-noun-project-v2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js wrapper for The Noun Project's V2 API. Based heavily on Ross Hettel's V1 wrapper.",
   "main": "nounproject.js",
   "scripts": {
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/berengamble/the-noun-project-v2",
   "dependencies": {
-    "mocha": "^10.2.0",
     "oauth": "^0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2"
   }
 }
